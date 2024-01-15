@@ -1,10 +1,16 @@
 //using commonJS
 
-module.exports.add = function(a, b) {
+add = function(a, b) {
     return a + b;
 }
 
-module.exports.subtract = function(a, b) {
+subtract = function(a, b) {
     return a - b;
 }
 
+const nameList = ['andy', 'billy', 'carlson'];
+const ages = [18,22,24]
+
+module.exports = {
+ add,subtract,nameList, ages
+}
